@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bde5b51eef6a4560b2a2442b047a9a7, type: 3}
+  m_Name: SwAccountData
+  m_EditorClassIdentifier: 
+  titlesList:
+  - games: []
+    id: 
+    name: --- select ---
+  - games:
+    - adMobId: 
+      bundleId: com.OurLastSpring.AIQueryIdleGallery
+      facebookAppId: 
+      gameAnalyticsKey: 
+      gameAnalyticsSecret: 
+      id: 0abeb15f-c906-4b7c-9ee4-f2f9e6bbff54
+      isAppKey: 
+      os: android
+      platform: google_play
+      storeId: 
+    id: 5459b129-96fb-42f9-9b87-aece224d025f
+    name: AI Query Idle Gallery
+  - games:
+    - adMobId: 
+      bundleId: com.MockeryStudio.Build-a-Route
+      facebookAppId: 586271390120644
+      gameAnalyticsKey: 1aa1c5601ca7e86a17b8f5169961650f
+      gameAnalyticsSecret: 37771065380997841228aa95f666b621af39f3d6
+      id: 1d417df6-c5fb-431c-8dd3-b1c2bdbc3488
+      isAppKey: 
+      os: android
+      platform: google_play
+      storeId: 
+    id: 36b41925-0cb1-46f1-b9e2-971195d59a26
+    name: Build a Route
+  - games:
+    - adMobId: 
+      bundleId: com.MockeryStudio.FlipperPush
+      facebookAppId: 543471747670987
+      gameAnalyticsKey: 1081694ca46bf267b7ab045353834394
+      gameAnalyticsSecret: 7f1bb01ae7e0c854fee235a4c8f1846544fd5951
+      id: d088e278-dab6-44f9-be43-2fef724b68ea
+      isAppKey: 
+      os: android
+      platform: google_play
+      storeId: 
+    id: 755357b2-56d1-4de9-a9a4-983a657bc219
+    name: Flipper Push
+  - games:
+    - adMobId: 
+      bundleId: com.MockeryStudio.LoopRace
+      facebookAppId: 668915674928015
+      gameAnalyticsKey: 52d9aec08d0fe6d5bc9da235708c617b
+      gameAnalyticsSecret: 578d9960a2406b188842dc00cee5b2b7685dbf34
+      id: 50ffa757-f8f8-4505-977f-353f1f49f330
+      isAppKey: 
+      os: android
+      platform: google_play
+      storeId: com.MockeryStudio.LoopRace
+    id: 6fbc9d90-6920-4ae0-8ce9-e28800a85a52
+    name: Loop Race
+  - games:
+    - adMobId: 
+      bundleId: com.MockeryStudio.MergeMaze
+      facebookAppId: 755546195938844
+      gameAnalyticsKey: 7afd5045c70d2dac8e2e6f6d7ec54a00
+      gameAnalyticsSecret: 3b71d885e3da3414dbe65bec6000e6706249eed9
+      id: 7094a7bf-1592-4f1f-b3c9-f65d2848b3c6
+      isAppKey: 
+      os: android
+      platform: google_play
+      storeId: com.MockeryStudio.MergeMaze
+    id: e7da2edc-a42d-40e4-b223-5bc060f57a05
+    name: Merge Maze
+  - games:
+    - adMobId: 
+      bundleId: com.MockeryStudio.RopeMaster
+      facebookAppId: 
+      gameAnalyticsKey: 
+      gameAnalyticsSecret: 
+      id: 237a901c-2843-46fb-9b08-43cef4721b28
+      isAppKey: 
+      os: android
+      platform: google_play
+      storeId: 
+    id: a550f495-1106-4ec9-a115-590202a8e738
+    name: Rope Master
+  - games:
+    - adMobId: 
+      bundleId: com.DefaultCompany.TetBridge
+      facebookAppId: 827854931890240
+      gameAnalyticsKey: 993c7a9441ad2be1e82769277a662734
+      gameAnalyticsSecret: 81aa7d04779c4284782bee17b5add388d6f3f999
+      id: 570d927c-4d01-4154-ae3a-cec080691440
+      isAppKey: 
+      os: android
+      platform: google_play
+      storeId: com.DefaultCompany.TetBridge
+    id: b2f9bda7-bbe0-4c59-b9c1-f76c68640b75
+    name: Tetris Bridge
+  integrationGuideUrl: 

@@ -1,3 +1,4 @@
+using SupersonicWisdomSDK;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -33,10 +34,18 @@ public class GameManager : MonoBehaviour
     public static bool gameOver = false;
     public static bool win = false;
 
-    void Start()
+    void Awake()
+    {
+        // Subscribe
+        SupersonicWisdom.Api.AddOnReadyListener(OnSupersonicWisdomReady);
+        // Then initialize
+        SupersonicWisdom.Api.Initialize();
+    }
+
+    void OnSupersonicWisdomReady()
     {
         //app
-        AppMetrica.Instance.ReportEvent(message:"game_start");
+        AppMetrica.Instance.ReportEvent(message: "game_start");
         //metrica
 
         _finger.SetActive(false);
@@ -78,7 +87,7 @@ public class GameManager : MonoBehaviour
         }
         else if (win == true)
         {
-
+            SupersonicWisdom.Api.NotifyLevelCompleted(currentLevelIndex, null);
 
             _finger.SetActive(false);
 
@@ -112,6 +121,7 @@ public class GameManager : MonoBehaviour
                 gameOver = false;
                 _gameOverUI.SetActive(false);
                 //app
+                SupersonicWisdom.Api.NotifyLevelFailed(currentLevelIndex, null);
                 AppMetrica.Instance.ReportEvent(message: "level_restart");
                 //metrica
                 StartCoroutine(LoadLevel(currentLevelIndex));
@@ -149,6 +159,7 @@ public class GameManager : MonoBehaviour
         player.SetStats(_mainData.Speed(), _mainData.RotationSpeed(), currentLevel.MinHP(), currentEnemies.Length);
 
         //app
+        SupersonicWisdom.Api.NotifyLevelStarted(currentLevelIndex, null);
         AppMetrica.Instance.ReportEvent(message: "level_start");
         player.levelStartTime = Time.time;
         //metrica

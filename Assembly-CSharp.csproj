@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_10;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;APP_METRICA_TRACK_LOCATION_DISABLED;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_10;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;APP_METRICA_TRACK_LOCATION_DISABLED;SW_STAGE_STAGE1;SW_STAGE_STAGE1_OR_ABOVE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -61,6 +61,7 @@
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\LogView.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Equipment.cs" />
     <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Prefabs\PurchaseRowPrefab.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsLogsManager.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsA2UNotificationsManager.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\UIInputHelper.cs" />
@@ -76,14 +77,17 @@
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\MenuBase.cs" />
     <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaNameAttribute.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\UploadToMediaLibrary.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\SettingsMenu.cs" />
     <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\LevelInfo.cs" />
     <Compile Include="Assets\AppMetrica\YMMJSONUtils.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsLoginManager.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\Subscription.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\ConsoleBase.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\GameManager.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\DrawWay.cs" />
     <Compile Include="Assets\AppMetrica\YandexAppMetricaError.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\PurchasePage.cs" />
     <Compile Include="Assets\AppMetrica\YandexAppMetricaErrorDetails.cs" />
     <Compile Include="Assets\AppMetrica\IYandexAppMetrica.cs" />
     <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
@@ -100,8 +104,11 @@
     <Compile Include="Assets\Scripts\ScriptableOBjects\DataGameMain.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\DialogShare.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsSoftKeyboardManager.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\UIState.cs" />
     <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaUserProfileUpdate.cs" />
     <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaGenderAttribute.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsReferralsManager.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\MainPage.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsFriendsManager.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsPhysicalGamepadManager.cs" />
     <Compile Include="Assets\AppMetrica\YandexAppMetricaAdRevenue.cs" />
@@ -110,59 +117,81 @@
     <Compile Include="Assets\AppMetrica\YandexAppMetricaConfig.cs" />
     <Compile Include="Assets\AppMetrica\YandexAppMetricaDummy.cs" />
     <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaUserProfile.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\Menu.cs" />
     <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\FacebookInitialize.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsExampleTabsManager.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Player.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\Utility.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\LogScroller.cs" />
     <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaNumberAttribute.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\GraphRequest.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AccessTokenMenu.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppLinks.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\SavePage.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\MainMenu.cs" />
     <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
     <Compile Include="Assets\AppMetrica\AppMetrica.cs" />
     <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\AdsPage.cs" />
     <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaBirthDateAttribute.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\Pay.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsShareManager.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsTournamentsManager.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Prefabs\ProductRowPrefab.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppEvents.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendErrorEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendAdEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendResourceEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GetABTestingVariantId.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendDesignEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SetCustomDimension.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GAInitialize.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GetRemoteConfigsValueAsString.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\IsRemoteConfigsReady.cs" />
+    <Compile Include="Assets\SupersonicWisdom\DemoScenes\Stage1\Stage1Demo.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendBusinessEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendProgressionEvent.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GetABTestingId.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\GameAnalytics\Readme.txt" />
+    <None Include="Assets\GameAnalytics\Plugins\SamsungTV\Mono.Data.Sqlite.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_URP.txt" />
     <None Include="Assets\FacebookSDK\Plugins\Windows\x86\XInputInterface.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Dissolve.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders PBS\TCP2_Standard PBS Outline.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Include\TCP2_Outline_Behind_SM2.shader" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\libcrypto-3-x64.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Shaders\CFX3 Multiply Color.shader" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\libcurl.dll" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\tinyxml2.dll" />
     <None Include="Assets\FacebookSDK\link.xml" />
     <None Include="Assets\FacebookSDK\Plugins\iOS\Facebook.Unity.IOS.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Outline.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Glow.shader" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\LibFBGUI.dll" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\libssl-3-x64.dll" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\zlib1.dll" />
+    <None Include="Assets\GameAnalytics\Plugins\GameAnalytics.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Ubershader.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Detail Texture Simple.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders PBS\TCP2_PBS_Main.cginc" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\LibFBGPlatform.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\GameAnalytics\Plugins\WSA\ARM\GameAnalytics.UWP.dll" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\LibFBGPlatform.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Variants Base\TCP2_Mobile_Specular_OutlineBlending.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\CartoonFX Free.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Vertex Color Albedo.shader" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\libcrypto-3.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_MatCap.txt" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\LibFBGPlatform.dll" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\libcurl.dll" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\LibFBGManaged.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\HSV.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR.cginc" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\tinyxml2.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Old School.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Dissolve.txt" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\tinyxml2.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders PBS\TCP2_Standard PBS Outline Blended (Specular).shader" />
     <None Include="Assets\Visual\Fonts\Baloo Tamma 2\OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -171,21 +200,18 @@
     <None Include="Assets\Visual\Fonts\Fredoka One\OFL.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\PBS\Sketch.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Texture Blending.txt" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\WebView2Loader.dll" />
     <None Include="Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_ShadowHSV.txt" />
+    <None Include="Assets\GameAnalytics\Plugins\WSA\x86\GameAnalytics.UWP.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Variants Base\TCP2_Desktop_OutlineBlending.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates\TCP2_ShaderTemplate_Water.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_Default.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Snow Accumulation.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\libssl-3-x64.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\TCP2_OutlineOnly Blended.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_NdotL Stylization.txt" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\zlib1.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Comic Book.shader" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\zlib1.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_CurvedWorld.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders PBS\TCP2_PBS_Core.cginc" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Variants Base\TCP2_Mobile_Specular.shader" />
@@ -194,14 +220,15 @@
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Variants Base\TCP2_Desktop_Specular_OutlineBlending.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Variants Base\TCP2_Desktop_Outline.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\TCP2_OutlineOnly SM2.shader" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\libssl-3.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Ramp Shading LWRP.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Include\TCP2_Include.cginc" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\TCP2_Desktop.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Hologram.shader" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\cpprest_2_10.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\TCP2_OutlineOnly Blended SM2.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Realistic.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Include\TCP2_Outline_Include.cginc" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\libcurl.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_AlbedoHSV.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\FacebookSDK\Plugins\Facebook.Unity.dll" />
@@ -211,33 +238,38 @@
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Normal Mapping.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Cartoon FX Remaster\Readme Cartoon FX Remaster FREE.txt" />
+    <None Include="Assets\GameAnalytics\Plugins\Windows\x86\sqlite3.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\PBS\Blended Outline.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\GameAnalytics\Plugins\Windows\x64\sqlite3.dll" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders PBS\TCP2_Standard PBS.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_VertExmotion.txt" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\cpprest_2_10.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Include\TCP2_Outline.shader" />
     <None Include="Assets\FacebookSDK\Plugins\Windows\x64\LibFBGUI.dll" />
+    <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Include\TCP2_Outline.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Subsurface Scattering.shader" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\cpprest_2_10.dll" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\WebView2Loader.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\libcurl.dll" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\libcrypto-3-x64.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\libssl-3.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Vertical Fog.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Water WindWaker2.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates\TCP2_ShaderTemplate_Water_CurvedWorld.txt" />
     <None Include="Assets\FacebookSDK\Plugins\Windows\x64\XInputInterface.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\PBS\Hand Painted.shader" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\tinyxml2.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Include\TCP2_Outline_Stencil.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Ramp Shading.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_LWRP.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders PBS\TCP2_Standard PBS Outline Blended.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Sketch.txt" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\LibFBGManaged.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Include\TCP2_Outline_SM2.shader" />
+    <None Include="Assets\GameAnalytics\Plugins\WSA\x64\GameAnalytics.UWP.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Aura2.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Reflection.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Lava.shader" />
@@ -250,18 +282,17 @@
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Triplanar.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates\TCP2_ShaderTemplate_PBS.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Sketch.shader" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\cpprest_2_10.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders PBS\TCP2_PBS_ShadowMeta.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\TCP2_Mobile.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Lava Cartoon.shader" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\LibFBGPlatform.dll" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\zlib1.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\PBS\Outline Behind.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_HSV.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Procedural Ring.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders PBS\TCP2_Standard PBS (Specular).shader" />
-    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\WebView2Loader.dll" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\LibFBGUI.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Variants Base\TCP2_Mobile_Outline.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Variants Base\TCP2_Desktop_Specular_Outline.shader" />
@@ -275,13 +306,17 @@
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders PBS\TCP2_PBS_BRDF.cginc" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\Variants Base\TCP2_Desktop_Specular.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders\TCP2_OutlineOnly.shader" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\GameAnalytics\Plugins\SamsungTV\GameAnalytics.SamsungTV.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Water WindWaker.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_CustomAmbient.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates\TCP2_ShaderTemplate_Default.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Poison.shader" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x86\libcrypto-3.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Specular.txt" />
     <None Include="Assets\Imported assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Distortion.shader" />
+    <None Include="Assets\FacebookSDK\Plugins\Windows\x64\WebView2Loader.dll" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Detail Texture.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Imported assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Reflection.txt" />
@@ -521,26 +556,26 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Windows">
-      <HintPath>Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
-    </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="XInputDotNetPure">
       <HintPath>Assets\FacebookSDK\Plugins\Windows\XInputDotNetPure.dll</HintPath>
     </Reference>
+    <Reference Include="Facebook.Unity.Windows">
+      <HintPath>Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="LibFBGManaged">
+      <HintPath>Assets\FacebookSDK\Plugins\Windows\LibFBGManaged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Android">
       <HintPath>Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="LibFBGManaged">
-      <HintPath>Assets\FacebookSDK\Plugins\Windows\LibFBGManaged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
@@ -1104,6 +1139,26 @@
     <ProjectReference Include="CFXRDemo.csproj">
       <Project>{7163194F-5B18-ED84-3438-4363D39288BD}</Project>
       <Name>CFXRDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="AppsFlyer.Editor.csproj">
+      <Project>{9B3DCCC0-A03C-66E8-9D48-5783BD3B68F1}</Project>
+      <Name>AppsFlyer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AppsFlyer.csproj">
+      <Project>{3141DE22-2300-ECD2-65CD-0B041E15CA96}</Project>
+      <Name>AppsFlyer</Name>
+    </ProjectReference>
+    <ProjectReference Include="SupersonicWisdom.Editor.csproj">
+      <Project>{56EA44E9-1C1A-3C4D-9DD6-36F413ADF5CD}</Project>
+      <Name>SupersonicWisdom.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SupersonicWisdom.csproj">
+      <Project>{80E54489-D024-9A9D-73A1-462E2DC05148}</Project>
+      <Name>SupersonicWisdom</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameAnalytics-CSharp.csproj">
+      <Project>{64AB363C-EFB9-2CBB-2312-520F68886D94}</Project>
+      <Name>GameAnalytics-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

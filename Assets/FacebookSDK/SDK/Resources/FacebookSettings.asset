@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedAppIndex: 0
   clientTokens:
-  - 1928eef68c63897625f463094d3f685f
+  - 
   appIds:
-  - 565924981559075
+  - 755546195938844
   appLabels:
-  - Merge Maze
+  - Maze Merge
   cookie: 1
   logging: 1
   status: 1
