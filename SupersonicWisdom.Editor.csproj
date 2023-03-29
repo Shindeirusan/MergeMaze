@@ -56,63 +56,63 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Settings\Validators\SwStage1AndroidSettingsValidator.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\SelfUpdate\SelfUpdateRawConfiguration.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\SwFileUtils.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\WelcomeMessageUtils.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Attribution\SwSkAdNetworkUtil.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Attribution\SwAttributionIosInjector.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\SelfUpdate\SwSelfUpdate.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Facebook\SwFacebookAdvertiseridCollectionAndroidInjector.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Settings\Inspector\SwStage1SettingsInspector.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\SwEditorUtils.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Logger\SwEditorLogger.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\iOS\SwPodfileProcessor.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\SwEditorConstants.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\Android\SwAndroidManifest.cs" />
     <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\SwTextMeshProUtils.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Settings\Validators\SwStage1SettingsValidator.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Stage\SwStageSymbolsUtils.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Network\SwPlatformCommunication.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Utils\SwStage1EditorUtils.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Tabs\SwCoreSettingsTab.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Tabs\SwIosCoreSettingsTab.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\SelfUpdate\SwSelfUpdateWindow.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Settings\Tabs\SwAndroidStage1SettingsTab.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Validators\SwSettingsValidatorFactory.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Validators\SwSettingsValidator.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Tabs\SwDebugCoreSettingsTab.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\GameAnalytics\SwGameAnalyticsUtils.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\PreBuild\SwInitializeOnLoad.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Account\SwAccountData.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\DeepLink\SwDeepLinkAndroidInjector.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\SwEditorError.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Settings\Tabs\SwDebugStage1SettingsTab.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\BackupRules\SwAndroidBackupRules.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Network\SwNetworkHelper.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\Android\SwAndroidXmlDocument.cs" />
     <Compile Include="Assets\SupersonicWisdom\Editor\Core\Account\SwAccountUtils.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Tabs\SwAndroidCoreSettingsTab.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Facebook\SwFacebookAdvertiseridCollectionIosInjector.cs" />
     <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Settings\Tabs\SwGeneralStage1SettingsTab.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Tabs\SwGeneralCoreSettingsTab.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Inspector\SwCoreSettingsInspector.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Settings\Validators\SwStage1IosSettingsValidator.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\CallOnInspectorUpdate.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\DeepLink\SwDeepLinkIosInjector.cs" />
     <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\ISwRepaintDelegate.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Stage\SwStageSymbolsUpdater.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\SelfUpdate\SwSelfUpdate.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Tabs\SwCoreSettingsTab.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\SelfUpdate\SwSelfUpdateWindow.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Validators\SwSettingsValidator.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\SelfUpdate\SelfUpdateRawConfiguration.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\WelcomeMessageUtils.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\CallOnInspectorUpdate.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Stage\SwStageSymbolsUtils.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\SwEditorError.cs" />
     <Compile Include="Assets\SupersonicWisdom\Editor\Core\MenuItems\SwMenu.cs" />
     <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\SwEditorCoroutines.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\Android\SwAndroidNetworkSecurityConfig.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Postprocessor\SwEditorCallbacks.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Network\SwNetworkHelper.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Account\SwAccountData.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\Android\SwAndroidXmlDocument.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Facebook\SwFacebookAdvertiseridCollectionIosInjector.cs" />
     <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Settings\Tabs\SwIosStage1SettingsTab.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\iOS\SwPbxProcessor.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\SwEditorAlerts.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Postprocessor\SwStage1Postprocessor.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\SelfUpdate\SelfUpdateConfiguration.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\Android\SwAndroidManifestUtils.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Utils\SwStage1EditorUtils.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Tabs\SwIosCoreSettingsTab.cs" />
     <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\SwEditorResponses.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\SwFileUtils.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Attribution\SwAttributionIosInjector.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\Android\SwAndroidManifest.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Validators\SwSettingsValidatorFactory.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Stage\SwStageSymbolsUpdater.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\SelfUpdate\SelfUpdateConfiguration.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\iOS\SwPodfileProcessor.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Settings\Validators\SwStage1SettingsValidator.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\SwEditorAlerts.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Tabs\SwGeneralCoreSettingsTab.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\Android\SwAndroidNetworkSecurityConfig.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\Android\SwAndroidManifestUtils.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Facebook\SwFacebookAdvertiseridCollectionAndroidInjector.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Attribution\SwSkAdNetworkUtil.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\BackupRules\SwAndroidBackupRules.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Postprocessor\SwEditorCallbacks.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Network\SwPlatformCommunication.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\DeepLink\SwDeepLinkAndroidInjector.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Settings\Tabs\SwDebugStage1SettingsTab.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Logger\SwEditorLogger.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\SwEditorConstants.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Settings\Tabs\SwAndroidStage1SettingsTab.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\GameAnalytics\SwGameAnalyticsUtils.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\PreBuild\SwInitializeOnLoad.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Inspector\SwCoreSettingsInspector.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\iOS\SwPbxProcessor.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Postprocessor\SwStage1Postprocessor.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Settings\Validators\SwStage1AndroidSettingsValidator.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Settings\Inspector\SwStage1SettingsInspector.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Utils\SwEditorUtils.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Tabs\SwDebugCoreSettingsTab.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\Settings\Tabs\SwAndroidCoreSettingsTab.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Stage1\Settings\Validators\SwStage1IosSettingsValidator.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Editor\Core\DeepLink\SwDeepLinkIosInjector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SupersonicWisdom\Editor\Core\Android\proguard-sw.txt" />
@@ -379,9 +379,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Google.JarResolver">
-      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.JarResolver.dll</HintPath>
-    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
@@ -394,20 +391,17 @@
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Windows">
-      <HintPath>Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
     <Reference Include="LibFBGManaged">
       <HintPath>Assets\FacebookSDK\Plugins\Windows\LibFBGManaged.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Windows">
+      <HintPath>Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -415,32 +409,17 @@
     <Reference Include="Google.VersionHandler">
       <HintPath>Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Editor">
-      <HintPath>Assets\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Google.PackageManagerResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.PackageManagerResolver.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Android">
-      <HintPath>Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Canvas">
-      <HintPath>Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
@@ -451,14 +430,35 @@
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.JarResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Editor">
+      <HintPath>Assets\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Android">
+      <HintPath>Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Canvas">
+      <HintPath>Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
     <Reference Include="Google.VersionHandlerImpl">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.VersionHandlerImpl.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity">
       <HintPath>Assets\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Google.IOSResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.IOSResolver.dll</HintPath>

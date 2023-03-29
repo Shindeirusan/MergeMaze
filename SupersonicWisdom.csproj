@@ -56,163 +56,163 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1\Api\Stage1ApiExtension.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\ISwRemoteConfigListener.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\User\SwUserStateChangeReason.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\SwUtils.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\AssemblyInfo.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\GameProgression\ISwGameProgressionListener.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\BlockingApi\SwBlockingSimulator.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Cache\SwFilesCacheManager.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Async\SwCoroutineService.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1\Container\SwStage1MonoBehaviour.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\SwNativeApiFactory.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Container\ISwInitParams.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Att\ISwAttListener.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\InGameConsole\SwGameConsoleMono.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\SwExtensionMethods.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\Android\SwNativeAndroidSessionListener.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\ISwRemoteConfigRepository.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Settings\ISwSettings.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\Facebook\SwStage1FacebookAdapter.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Loader\SwLoader.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwRawImage.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\DevTools\SwDevTools.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\User\ISwIdsGetter.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Stage\SwStage.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\AppsFlyer\ISwAppsFlyerListener.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwCoreRemoteConfigListener.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\Api\SwStage1InitParams.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\DevTools\SwDevToolsPopup.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\GameAnalytics\SwStage1GameAnalyticsAdapter.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\Api\SwLegacyInitParams.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwText.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Network\SwWebResponse.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\UpdateablesManager.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\SwNativeBridge.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\LocalConfig\ISwLocalConfigProvider.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\BlockingApi\SwBlockingApiHandler.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Network\SwUnityWebRequestClient.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\SwMonoBehaviorSingleton.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwRemoteConfigRequestPayload.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Async\SwMainThreadActionsQueue.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwCoreRemoteConfigRepository.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\SwMillisecondsCounter.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwRemoteConfigError.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\Unsupported\SwNativeUnsupportedApi.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Session\ISwSessionListener.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Iap\SwProductDescriptor.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Loader\ISwLoader.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Cache\SwFilesCacheManager.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\DevTools\SwDevTools.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\Api\SwLegacyInitParams.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Timer\SwNoTouchTimer.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Iap\SwProduct.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Att\ISwAttAdapter.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\GameBlocker\SwGameBlocker.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\Native\SwStage1NativeAdapter.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Settings\SwOverwritableSettingsField.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Async\ISwMainThreadRunner.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1\Api\Stage1ApiExtension.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwAbConfig.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Logger\SwLoggerService.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Timer\SwTimer.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Timer\SwTimerManager.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\DeepLink\SwDeepLinkHandler.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Cache\ISwKeyValueStore.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Async\ISwAsyncRunnable.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Container\SwContainerUtils.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\Events\SwEventDetailsExtra.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Container\SwCoreMonoBehaviour.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Api\SwCoreDelegates.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\LocalConfig\SwLocalConfigHandler.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Logger\ISwLogger.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Container\ISwContainer.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Adapters\SwAdapterData.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Timer\SwStopWatch.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\AppsFlyer\SwStage1AppsFlyerAdapter.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\DeepLink\SwStage1DeepLinkConstants.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1\Container\SwStage1FetchRemoteConfig.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwAbConfig.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Timer\SwNoTouchTimer.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwRemoteConfig.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Container\ISwScriptLifecycleListener.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Logger\SwLoggerService.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\NativeMessages\SwIosNativeMessagesService.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Settings\SwSettings.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\LocalConfig\SwStage1AppsFlyerLocalConfig.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Timer\SwTimer.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwRemoteConfigDelegates.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\SwNativeApi.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwConfigAccessor.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwNativeEventsConfig.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Timer\SwTimerManager.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\Android\SwNativeAndroidInitListener.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\User\SwStage1UserData.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Api\SupersonicWisdom.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\Android\SwNativeAndroidApi.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\InGameConsole\SwGameConsole.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\SwNativeConfig.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\RemoteConfig\SwStage1RemoteConfigRepository.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\InGameConsole\SwGameConsoleLogType.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwToggleGroup.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\Android\SwNativeAndroidBridge.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Json\SwJsonParser.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\DeepLink\SwDeepLinkHandler.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Timer\ISwTimer.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Api\SwInitKeys.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\TestUtils\SwTestUtils.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\SwNativeDelegates.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwImage.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Iap\SwProduct.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Att\SwAttUtils.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Cache\ISwKeyValueStore.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1\Container\SwStage1Container.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\User\ISwUserData.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\LocalConfig\SwLocalConfig.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\BlockingApi\ISwBlockingApiMiddleware.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Att\ISwAttAdapter.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Async\ISwAsyncCatchableRunnable.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwCoreRemoteConfigRepository.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\User\ISwUserStateListener.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Async\SwAsyncFlow.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\PrivacyPolicy\SwPrivacyPolicy.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwGraphicRaycaster.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Analytics\SwCoreTracker.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\SwBringToFront.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\SwMillisecondsCounter.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\SwException.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Attribution\SwAttributionConstants.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Encryption\SwEncryptor.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwCanvasScaler.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\Analytics\SwStage1Tracker.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwAgentConfig.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\AppsFlyer\SwAppsFlyerEventDispatcher.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Att\SwAttAdapter.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwAspectRatioFilter.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\ISwConfigAccessor.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\Session\SwStage1SessionListener.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Async\ISwAsyncRunnable.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Cache\SwPlayerPrefsStore.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Constants\SwConstants.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwVerticalLayoutGroup.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Stage\SwStageUtils.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\Events\SwEventMetadataDto.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwRemoteConfigError.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1\Container\SwStage1InitThirdParties.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\ILateUpdatable.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\EventListener\ISwReadyEventListener.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Settings\SwSettingsManager.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwToggle.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Container\SwCoreContainer.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Cache\SwStoreKeys.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Api\SwApi.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Analytics\SwProgressEvent.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Network\ISwWebRequestClient.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1\Container\SwStage1InitAppsflyer.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Network\SwWebRequestError.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\Unsupported\SwNativeUnsupportedApi.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Container\SwContainerUtils.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\GameBlocker\SwGameBlocker.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\StoreKit\SwSKAdNetworkAdapter.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\SwNativeAdapter.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Async\SwAsyncFlowStep.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Session\ISwSessionListener.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\TestUtils\SwInternalEvent.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1\DeepLink\SwStage1DeepLinkHandler.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\Native\SwStage1NativeAdapter.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Att\SwAttAuthorizationStatus.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\GameBlocker\BlockerPopupView.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Settings\SwOverwritableSettingsField.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Infra\SwInfra.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Iap\SwProductDescriptor.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwConfigConstants.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\User\ISwIdsGetter.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\GameAnalytics\SwStage1GameAnalyticsAdapter.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Async\SwMainThreadActionsQueue.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\LocalConfig\SwLocalConfig.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Async\ISwAsyncCatchableRunnable.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\PrivacyPolicy\SwPrivacyPolicy.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwAgentConfig.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\Session\SwStage1SessionListener.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Cache\SwPlayerPrefsStore.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Settings\SwSettingsManager.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\GameBlocker\BlockerPopupView.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\GameProgression\ISwGameProgressionListener.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\AppsFlyer\ISwAppsFlyerListener.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\SwMonoBehaviorSingleton.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Timer\SwStopWatch.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\LocalConfig\SwStage1AppsFlyerLocalConfig.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwImage.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Stage\SwStageUtils.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Iap\SwProductType.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\AssemblyInfo.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\InGameConsole\SwGameConsoleMono.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwRemoteConfig.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwConfigAccessor.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Api\SupersonicWisdom.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\RemoteConfig\SwStage1RemoteConfigRepository.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwToggleGroup.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\Events\SwEventMetadataDto.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Analytics\SwProgressEvent.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\StoreKit\SwSKAdNetworkAdapter.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1\Container\SwStage1MonoBehaviour.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Stage\SwStage.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\BlockingApi\SwBlockingApiHandler.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Timer\ISwTimer.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\TestUtils\SwTestUtils.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Network\SwWebRequestError.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Att\SwAttAuthorizationStatus.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1\RemoteConfig\SwStage1RemoteConfigListener.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Adapters\ISwAdapter.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Iap\SwProductType.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\ISwRemoteConfigRepository.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Settings\ISwSettings.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwRemoteConfigDelegates.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwGraphicRaycaster.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwVerticalLayoutGroup.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwConfigConstants.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\IOS\SwNativeIosApi.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwMask.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\Events\SwEventDetailsExtra.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\User\SwUserData.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Loader\ISwLoader.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\IOS\SwNativeIosBridge.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Container\SwCoreMonoBehaviour.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwButton.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Async\ISwMainThreadRunner.cs" />
-    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Container\SwGameObjectLogo.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Container\ISwInitParams.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\Facebook\SwStage1FacebookAdapter.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Loader\SwLoader.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\UpdateablesManager.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Network\SwUnityWebRequestClient.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Settings\SwSettings.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\Android\SwNativeAndroidInitListener.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\Android\SwNativeAndroidBridge.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1\Container\SwStage1InitAppsflyer.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\SwNativeAdapter.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\Api\SwStage1InitParams.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\LocalConfig\SwLocalConfigHandler.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Api\SwInitKeys.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\SwNativeDelegates.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Att\SwAttUtils.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1\Container\SwStage1Container.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Encryption\SwEncryptor.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Att\SwAttAdapter.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\EventListener\ISwReadyEventListener.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Api\SwApi.cs" />
     <Compile Include="Assets\SupersonicWisdom\Scripts\Core\User\SwUserState.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\BlockingApi\SwBlockingSimulator.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Adapters\SwAdapterData.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\AppsFlyer\SwStage1AppsFlyerAdapter.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Container\ISwScriptLifecycleListener.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\InGameConsole\SwGameConsole.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\BlockingApi\ISwBlockingApiMiddleware.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\User\ISwUserData.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\Analytics\SwStage1Tracker.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\ISwConfigAccessor.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1\DeepLink\SwStage1DeepLinkHandler.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Container\SwGameObjectLogo.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\User\SwUserStateChangeReason.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\Android\SwNativeAndroidSessionListener.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1\Container\SwStage1FetchRemoteConfig.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\SwNativeApi.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\User\SwStage1UserData.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\Android\SwNativeAndroidApi.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Constants\SwConstants.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\ILateUpdatable.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Cache\SwStoreKeys.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Async\SwCoroutineService.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\SwNativeBridge.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwToggle.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\TestUtils\SwInternalEvent.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\ISwRemoteConfigListener.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\SwUtils.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwRawImage.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwCoreRemoteConfigListener.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwText.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwRemoteConfigRequestPayload.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Stage1Migration\DeepLink\SwStage1DeepLinkConstants.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwCanvasScaler.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Attribution\SwAttributionConstants.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\UnityEngineUiWrappers\SwAspectRatioFilter.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Container\SwCoreContainer.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Network\ISwWebRequestClient.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Async\SwAsyncFlowStep.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\User\SwUserData.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\IOS\SwNativeIosBridge.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Native\SwNativeApiFactory.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Att\ISwAttListener.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\SwExtensionMethods.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\LocalConfig\ISwLocalConfigProvider.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\RemoteConfig\SwNativeEventsConfig.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\InGameConsole\SwGameConsoleLogType.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\User\ISwUserStateListener.cs" />
+    <Compile Include="Assets\SupersonicWisdom\Scripts\Core\Utils\SwBringToFront.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SupersonicWisdom\Scripts\SupersonicWisdom.asmdef" />
@@ -464,9 +464,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Google.JarResolver">
-      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.JarResolver.dll</HintPath>
-    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
@@ -479,20 +476,17 @@
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Windows">
-      <HintPath>Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
     <Reference Include="LibFBGManaged">
       <HintPath>Assets\FacebookSDK\Plugins\Windows\LibFBGManaged.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Windows">
+      <HintPath>Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -500,32 +494,17 @@
     <Reference Include="Google.VersionHandler">
       <HintPath>Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Editor">
-      <HintPath>Assets\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Google.PackageManagerResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.PackageManagerResolver.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Android">
-      <HintPath>Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Canvas">
-      <HintPath>Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
@@ -536,14 +515,35 @@
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.JarResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Editor">
+      <HintPath>Assets\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Android">
+      <HintPath>Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Canvas">
+      <HintPath>Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
     <Reference Include="Google.VersionHandlerImpl">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.VersionHandlerImpl.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity">
       <HintPath>Assets\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Google.IOSResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.IOSResolver.dll</HintPath>

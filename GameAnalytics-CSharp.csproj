@@ -56,39 +56,39 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Error.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_AndroidWrapper.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Debug.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\TopOn\GATopOnIntegration.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_SpecialEvents.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\Aequus\GAAequusIntegration.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GAValidator.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_iOSWrapper.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Design.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\GameAnalyticsILRD.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Progression.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Setup.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ATT\GameAnalyticsATTClient.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\GameAnalytics.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Resource.cs" />
     <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Enums.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_tvOSWrapper.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Setup\Settings.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_Wrapper.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_TizenWrapper.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Fyber\GAFyberIntegration.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_UWPWrapper.cs" />
     <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_WebGLWrapper.cs" />
     <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Utilities\GA_MiniJson.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ATT\GameAnalyticsATTObjCBridge.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\State\GAState.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Business.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\IronSource\GAIronSourceIntegration.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\Max\GAMaxIntegration.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\IGameAnalyticsATTListener.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Mopub\GAMopubIntegration.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_AndroidWrapper.cs" />
     <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_MonoWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\GameAnalyticsILRD.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_SpecialEvents.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Fyber\GAFyberIntegration.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Setup.cs" />
     <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Ads.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GAValidator.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Resource.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\IGameAnalyticsATTListener.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\Aequus\GAAequusIntegration.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Business.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Progression.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ATT\GameAnalyticsATTClient.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_TizenWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ATT\GameAnalyticsATTObjCBridge.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\GameAnalytics.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_tvOSWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Debug.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_iOSWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Error.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\IronSource\GAIronSourceIntegration.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\TopOn\GATopOnIntegration.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_UWPWrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\ILRD\Max\GAMaxIntegration.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Events\GA_Design.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Setup\Settings.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Mopub\GAMopubIntegration.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\Wrapper\GA_Wrapper.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Scripts\State\GAState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GameAnalytics\Plugins\Scripts\GameAnalytics-CSharp.asmdef" />
@@ -340,9 +340,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Google.JarResolver">
-      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.JarResolver.dll</HintPath>
-    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
@@ -355,20 +352,17 @@
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Windows">
-      <HintPath>Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
     <Reference Include="LibFBGManaged">
       <HintPath>Assets\FacebookSDK\Plugins\Windows\LibFBGManaged.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Windows">
+      <HintPath>Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -376,32 +370,17 @@
     <Reference Include="Google.VersionHandler">
       <HintPath>Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Editor">
-      <HintPath>Assets\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Google.PackageManagerResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.PackageManagerResolver.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Android">
-      <HintPath>Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Canvas">
-      <HintPath>Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
@@ -412,14 +391,35 @@
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.JarResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Editor">
+      <HintPath>Assets\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Android">
+      <HintPath>Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Canvas">
+      <HintPath>Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
     <Reference Include="Google.VersionHandlerImpl">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.VersionHandlerImpl.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity">
       <HintPath>Assets\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Google.IOSResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.172\Google.IOSResolver.dll</HintPath>

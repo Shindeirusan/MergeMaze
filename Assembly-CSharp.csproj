@@ -56,103 +56,103 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaAttribute.cs" />
-    <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaBooleanAttribute.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\LogView.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Equipment.cs" />
-    <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Prefabs\PurchaseRowPrefab.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsLogsManager.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsA2UNotificationsManager.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\UIInputHelper.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsVirtualGamepadManager.cs" />
     <Compile Include="Assets\AppMetrica\YandexAppMetricaRevenue.cs" />
     <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoRotate.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppRequests.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendAdEvent.cs" />
     <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaNotificationsEnabledAttribute.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsGraphAPIManager.cs" />
     <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsPurchaseManager.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\Enemy.cs" />
+    <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
+    <Compile Include="Assets\Scripts\MonoBehaviours\LevelInfo.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GetRemoteConfigsValueAsString.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsLoginManager.cs" />
+    <Compile Include="Assets\Scripts\MonoBehaviours\GameManager.cs" />
+    <Compile Include="Assets\Scripts\MonoBehaviours\DrawWay.cs" />
+    <Compile Include="Assets\AppMetrica\YandexAppMetricaError.cs" />
+    <Compile Include="Assets\AppMetrica\IYandexAppMetrica.cs" />
+    <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
+    <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaCounterAttribute.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsInitManager.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendErrorEvent.cs" />
+    <Compile Include="Assets\AppMetrica\YandexAppMetricaAndroid.cs" />
+    <Compile Include="Assets\Scripts\MonoBehaviours\DestroyAfterBorn.cs" />
+    <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaUserProfileUpdate.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsFriendsManager.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsPhysicalGamepadManager.cs" />
+    <Compile Include="Assets\AppMetrica\YandexAppMetricaAdRevenue.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\IsRemoteConfigsReady.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsADSManager.cs" />
+    <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+    <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaUserProfile.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\Menu.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendDesignEvent.cs" />
+    <Compile Include="Assets\Scripts\MonoBehaviours\Player.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\LogScroller.cs" />
+    <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaNumberAttribute.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendResourceEvent.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\SavePage.cs" />
+    <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
+    <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Prefabs\ProductRowPrefab.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppEvents.cs" />
+    <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaAttribute.cs" />
+    <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaBooleanAttribute.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\LogView.cs" />
+    <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsLogsManager.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\UIInputHelper.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppRequests.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GetABTestingVariantId.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendProgressionEvent.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\MenuBase.cs" />
     <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaNameAttribute.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\UploadToMediaLibrary.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\SettingsMenu.cs" />
-    <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
-    <Compile Include="Assets\Scripts\MonoBehaviours\LevelInfo.cs" />
     <Compile Include="Assets\AppMetrica\YMMJSONUtils.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsLoginManager.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\Subscription.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\ConsoleBase.cs" />
-    <Compile Include="Assets\Scripts\MonoBehaviours\GameManager.cs" />
-    <Compile Include="Assets\Scripts\MonoBehaviours\DrawWay.cs" />
-    <Compile Include="Assets\AppMetrica\YandexAppMetricaError.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\PurchasePage.cs" />
     <Compile Include="Assets\AppMetrica\YandexAppMetricaErrorDetails.cs" />
-    <Compile Include="Assets\AppMetrica\IYandexAppMetrica.cs" />
-    <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GAInitialize.cs" />
     <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaStringAttribute.cs" />
-    <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaCounterAttribute.cs" />
     <Compile Include="Assets\AppMetrica\YandexAppMetricaRequestTrackingStatus.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendBusinessEvent.cs" />
     <Compile Include="Assets\AppMetrica\YandexAppMetricaIOS.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsInitManager.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\TournamentsMenu.cs" />
-    <Compile Include="Assets\AppMetrica\YandexAppMetricaAndroid.cs" />
     <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
-    <Compile Include="Assets\Scripts\MonoBehaviours\DestroyAfterBorn.cs" />
     <Compile Include="Assets\AppMetrica\BaseYandexAppMetrica.cs" />
     <Compile Include="Assets\Scripts\ScriptableOBjects\DataGameMain.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\DialogShare.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsSoftKeyboardManager.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\UIState.cs" />
-    <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaUserProfileUpdate.cs" />
     <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaGenderAttribute.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsReferralsManager.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\MainPage.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsFriendsManager.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsPhysicalGamepadManager.cs" />
-    <Compile Include="Assets\AppMetrica\YandexAppMetricaAdRevenue.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsADSManager.cs" />
-    <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+    <Compile Include="Assets\SupersonicWisdom\DemoScenes\Stage1\Stage1Demo.cs" />
     <Compile Include="Assets\AppMetrica\YandexAppMetricaConfig.cs" />
     <Compile Include="Assets\AppMetrica\YandexAppMetricaDummy.cs" />
-    <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaUserProfile.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\Menu.cs" />
     <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
     <Compile Include="Assets\Scripts\MonoBehaviours\FacebookInitialize.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsExampleTabsManager.cs" />
-    <Compile Include="Assets\Scripts\MonoBehaviours\Player.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\Utility.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\LogScroller.cs" />
-    <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaNumberAttribute.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GetABTestingId.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\GraphRequest.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AccessTokenMenu.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppLinks.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\SavePage.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\MainMenu.cs" />
-    <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
     <Compile Include="Assets\AppMetrica\AppMetrica.cs" />
-    <Compile Include="Assets\Imported assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SetCustomDimension.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\AdsPage.cs" />
     <Compile Include="Assets\AppMetrica\Profile\YandexAppMetricaBirthDateAttribute.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\Pay.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsShareManager.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Windows\FBWindowsTournamentsManager.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Prefabs\ProductRowPrefab.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppEvents.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendErrorEvent.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendAdEvent.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendResourceEvent.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GetABTestingVariantId.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendDesignEvent.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SetCustomDimension.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GAInitialize.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GetRemoteConfigsValueAsString.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\IsRemoteConfigsReady.cs" />
-    <Compile Include="Assets\SupersonicWisdom\DemoScenes\Stage1\Stage1Demo.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendBusinessEvent.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\SendProgressionEvent.cs" />
-    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\GetABTestingId.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GameAnalytics\Readme.txt" />
@@ -562,26 +562,20 @@
     <Reference Include="XInputDotNetPure">
       <HintPath>Assets\FacebookSDK\Plugins\Windows\XInputDotNetPure.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Windows">
-      <HintPath>Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="LibFBGManaged">
       <HintPath>Assets\FacebookSDK\Plugins\Windows\LibFBGManaged.dll</HintPath>
     </Reference>
+    <Reference Include="Facebook.Unity.Windows">
+      <HintPath>Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Android">
-      <HintPath>Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Canvas">
-      <HintPath>Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
@@ -597,6 +591,12 @@
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Android">
+      <HintPath>Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Canvas">
+      <HintPath>Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity">
       <HintPath>Assets\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
@@ -1112,6 +1112,14 @@
       <Project>{96CD10AB-C056-A505-D86A-B3F82A1B9500}</Project>
       <Name>CFXREditor</Name>
     </ProjectReference>
+    <ProjectReference Include="AppsFlyer.Editor.csproj">
+      <Project>{9B3DCCC0-A03C-66E8-9D48-5783BD3B68F1}</Project>
+      <Name>AppsFlyer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SupersonicWisdom.csproj">
+      <Project>{80E54489-D024-9A9D-73A1-462E2DC05148}</Project>
+      <Name>SupersonicWisdom</Name>
+    </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Runtime.csproj">
       <Project>{1483AC3C-E667-C468-3354-9FCF4FA6ACBF}</Project>
       <Name>ToonyColorsPro.Runtime</Name>
@@ -1132,6 +1140,10 @@
       <Project>{C916DDB5-E1D5-8961-DB5D-21BC9321DC7A}</Project>
       <Name>ToonyColorsPro2.Demo</Name>
     </ProjectReference>
+    <ProjectReference Include="AppsFlyer.csproj">
+      <Project>{3141DE22-2300-ECD2-65CD-0B041E15CA96}</Project>
+      <Name>AppsFlyer</Name>
+    </ProjectReference>
     <ProjectReference Include="KinoBloom.Runtime.csproj">
       <Project>{04E6E107-E5DA-8335-28D4-BCB8789F4DBE}</Project>
       <Name>KinoBloom.Runtime</Name>
@@ -1140,25 +1152,13 @@
       <Project>{7163194F-5B18-ED84-3438-4363D39288BD}</Project>
       <Name>CFXRDemo</Name>
     </ProjectReference>
-    <ProjectReference Include="AppsFlyer.Editor.csproj">
-      <Project>{9B3DCCC0-A03C-66E8-9D48-5783BD3B68F1}</Project>
-      <Name>AppsFlyer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="AppsFlyer.csproj">
-      <Project>{3141DE22-2300-ECD2-65CD-0B041E15CA96}</Project>
-      <Name>AppsFlyer</Name>
+    <ProjectReference Include="GameAnalytics-CSharp.csproj">
+      <Project>{64AB363C-EFB9-2CBB-2312-520F68886D94}</Project>
+      <Name>GameAnalytics-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="SupersonicWisdom.Editor.csproj">
       <Project>{56EA44E9-1C1A-3C4D-9DD6-36F413ADF5CD}</Project>
       <Name>SupersonicWisdom.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="SupersonicWisdom.csproj">
-      <Project>{80E54489-D024-9A9D-73A1-462E2DC05148}</Project>
-      <Name>SupersonicWisdom</Name>
-    </ProjectReference>
-    <ProjectReference Include="GameAnalytics-CSharp.csproj">
-      <Project>{64AB363C-EFB9-2CBB-2312-520F68886D94}</Project>
-      <Name>GameAnalytics-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
